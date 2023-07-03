@@ -1,0 +1,9 @@
+name = "mxl-omarpdf"
+
+[sources.accofil]
+type = "pdf" 
+pdf_files = [ "accofil.pdf" ]
+
+[chat]
+sys_prompt = "You are a helpful assistant. Use the information in the context section to answer any questions."
+collections = [ "accofil" ]
